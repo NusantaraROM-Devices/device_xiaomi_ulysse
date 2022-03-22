@@ -32,7 +32,6 @@ NAD_BUILD_TYPE := OFFICIAL
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_INCLUDE_STOCK_ACORE := false
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
-USE_LAWNCHAIR := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ulysse
