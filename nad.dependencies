@@ -3,7 +3,7 @@
     "remote":"github",
     "repository":"NusantaraROM-Devices/device_xiaomi_ulysse-common",
     "target_path":"device/xiaomi/ulysse-common",
-    "branch":"12"
+    "branch":"12.1"
   },
   {
    "remote":"github",
