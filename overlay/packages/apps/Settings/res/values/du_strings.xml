@@ -10,6 +10,8 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
-    <string name="maintainer_name">adislice</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="maintainer_name">heinzdf x hand08</string>
+
 </resources>

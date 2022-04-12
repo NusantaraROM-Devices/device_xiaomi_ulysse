@@ -18,15 +18,17 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from mido device
+# Inherit from ulysse device
 $(call inherit-product, device/xiaomi/ulysse/device.mk)
 
-# Inherit some common Ancient stuff.
-$(call inherit-product, vendor/ancient/config/common_full_phone.mk)
+# Inherit some common Nusantara stuff
+TARGET_BOOT_ANIMATION_RES := 720
+NAD_BUILD_TYPE := OFFICIAL
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ulysse
-PRODUCT_NAME := ancient_ulysse
+PRODUCT_NAME := nad_ulysse
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 5A
@@ -40,9 +42,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := "xiaomi/ugg/ugg:7.1.2/N2G47H/V9.5.8.0.NDKMIFA:user/release-keys"
-
-TARGET_BOOT_ANIMATION_RES := 720
-ANCIENT_NOGAPPS=true
-TARGET_GAPPS_ARCH := arm64
-ANCIENT_OFFICIAL := true
-FORCE_OTA := true

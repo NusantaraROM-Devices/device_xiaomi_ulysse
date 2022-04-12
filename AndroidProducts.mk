@@ -14,5 +14,5 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ancient_ulysse.mk
+    $(LOCAL_DIR)/nad_ulysse.mk
 

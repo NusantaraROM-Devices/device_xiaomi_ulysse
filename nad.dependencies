@@ -1,0 +1,29 @@
+[
+  {
+    "remote":"github",
+    "repository":"NusantaraROM-Devices/device_xiaomi_ulysse-common",
+    "target_path":"device/xiaomi/ulysse-common",
+    "branch":"10"
+  },
+  {
+   "remote":"github",
+    "repository":"NusantaraROM-Devices/vendor_xiaomi_ulysse-common",
+    "target_path":"vendor/xiaomi/ulysse-common",
+    "branch":"10",
+    "clone-depth":"1"
+  },
+  {
+   "remote":"github",
+    "repository":"mgs28-mh/kernel_xiaomi_ulysse-4.9",
+    "target_path":"kernel/xiaomi/ulysse",
+    "branch":"a12/temp",
+    "clone-depth":"1"
+  },
+  {
+    "remote":"github",
+    "repository":"Gabuters-Dev/gabuters-clang",
+    "target_path":"prebuilts/clang/host/linux-x86/gabuters-clang",
+    "branch":"master",
+    "clone-depth":"1"
+  }
+]
