@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <device name="Android">
+    <item name="none">0</item>
     <item name="screen.on">100</item>
     <item name="screen.full">205</item>
     <array name="cpu.clusters.cores">
@@ -34,18 +35,6 @@
         <value>108</value>
         <value>111</value>
     </array>
-    <array name="cpu.speeds">
-        <value>960000</value>
-        <value>1094400</value>
-        <value>1248000</value>
-        <value>1401000</value>
-    </array>
-    <array name="cpu.active">
-        <value>255</value>
-        <value>310</value>
-        <value>480</value>
-        <value>550</value>
-    </array>
     <item name="cpu.idle">2.8</item>
     <item name="cpu.awake">4</item>
     <item name="bluetooth.active">60</item>
@@ -57,8 +46,8 @@
     <item name="dsp.audio">35</item>
     <item name="dsp.video">60</item>
     <item name="camera.flashlight">250</item>
-    <item name="camera.avg">580</item>
-    <item name="gps.on">70</item>
+    <item name="camera.avg">500</item>
+    <item name="gps.on">30</item>
     <item name="radio.active">150</item>
     <item name="radio.scanning">55</item>
     <array name="radio.on">
